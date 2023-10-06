@@ -1,4 +1,4 @@
-# Ex. No: 5 Creating Cursors using PL/SQL
+# Ex. No: 6 Creating Cursors using PL/SQL
 
 ### AIM: To create a cursor using PL/SQL.
 
@@ -14,5 +14,6 @@
 ### PLSQL Cursor code
 
 ### Output:
+![Uploading image.png…]()
 
 ### Result:
