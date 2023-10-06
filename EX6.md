@@ -10,10 +10,45 @@
 
 ### Program:
 ### Create employee table
+```
+CREATE TABLE employees (empid NUMBER,empname VARCHAR(10),dept VARCHAR(10),salary NUMBER);
+INSERT INTO employees VALUES (1, 'leo das', 'ceo', 100000);
+INSERT INTO employees VALUES (2, 'nixan dass', 'HR', 90000);
 
+```
 ### PLSQL Cursor code
+```
+DECLARE
+	CURSOR employees_cursor IS
+		SELECT empid,empname,dept,salary
+		FROM employees;
+	emp_id NUMBER;
+	emp_name VARCHAR2(50);
+	emp_dept VARCHAR2(50);
+	emp_salary NUMBER;
+BEGIN
+	OPEN employees_cursor;
+	LOOP
+		FETCH employees_cursor INTO emp_id,emp_name,emp_dept,emp_salary;
+		EXIT WHEN employees_cursor%NOTFOUND;
+		
+		DBMS_OUTPUT.PUT_LINE('Employee ID: ' || emp_id);
+		DBMS_OUTPUT.PUT_LINE('Employee Name: ' || emp_name);
+		DBMS_OUTPUT.PUT_LINE('Department: ' || emp_dept);
+		DBMS_OUTPUT.PUT_LINE('Salary: ' || emp_salary);
+		DBMS_OUTPUT.PUT_LINE('--------------------------');
+	
+	END LOOP;
+	
+	CLOSE employees_cursor;
+END;
+
+```
 
 ### Output:
-![Uploading image.png…]()
+![image](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/b8eb3e49-48b7-410b-8fb6-9403353884c0)
+
+![Screenshot (65)](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/ec05c328-5010-469d-92f2-fa3483a4fb42)
 
 ### Result:
+THE PROGRAM WAS EXECUTED SUCCESSFULLY.
