@@ -46,7 +46,6 @@ END;
 ```
 
 ### Output:
-![image](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/b8eb3e49-48b7-410b-8fb6-9403353884c0)
 
 ![image](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/7c2f0123-ff56-4474-b75e-e102b0963e96)
 
