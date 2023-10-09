@@ -48,7 +48,8 @@ END;
 ### Output:
 ![image](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/b8eb3e49-48b7-410b-8fb6-9403353884c0)
 
-![Screenshot (65)](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/ec05c328-5010-469d-92f2-fa3483a4fb42)
+![image](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/7c2f0123-ff56-4474-b75e-e102b0963e96)
+
 
 ### Result:
 THE PROGRAM WAS EXECUTED SUCCESSFULLY.
