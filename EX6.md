@@ -1,22 +1,22 @@
-# Ex. No: 6 Creating Cursors using PL/SQL
+## Ex. No: 6 Creating Cursors using PL/SQL
 
-### AIM: To create a cursor using PL/SQL.
+#### AIM: To create a cursor using PL/SQL.
 
-### Steps:
+#### Steps:
 1. Create employee table with following attributes (empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
 2. Create a cursor named as employee_cursor
 3. Using cursor read each record and display the result
 4. Close the cursor
 
-### Program:
-### Create employee table
+#### Program:
+#### Create employee table
 ```
 CREATE TABLE employees (empid NUMBER,empname VARCHAR(10),dept VARCHAR(10),salary NUMBER);
 INSERT INTO employees VALUES (1, 'leo das', 'ceo', 100000);
 INSERT INTO employees VALUES (2, 'nixan dass', 'HR', 90000);
 
 ```
-### PLSQL Cursor code
+#### PLSQL Cursor code
 ```
 DECLARE
 	CURSOR employees_cursor IS
@@ -45,10 +45,10 @@ END;
 
 ```
 
-### Output:
+#### Output:
 
 ![image](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/7c2f0123-ff56-4474-b75e-e102b0963e96)
 
 
-### Result:
+#### Result:
 THE PROGRAM WAS EXECUTED SUCCESSFULLY.
