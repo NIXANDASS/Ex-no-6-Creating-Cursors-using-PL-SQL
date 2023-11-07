@@ -14,7 +14,6 @@
 CREATE TABLE employees (empid NUMBER,empname VARCHAR(10),dept VARCHAR(10),salary NUMBER);
 INSERT INTO employees VALUES (1, 'leo das', 'ceo', 100000);
 INSERT INTO employees VALUES (2, 'nixan dass', 'HR', 90000);
-
 ```
 #### PLSQL Cursor code
 ```
@@ -37,18 +36,11 @@ BEGIN
 		DBMS_OUTPUT.PUT_LINE('Department: ' || emp_dept);
 		DBMS_OUTPUT.PUT_LINE('Salary: ' || emp_salary);
 		DBMS_OUTPUT.PUT_LINE('--------------------------');
-	
 	END LOOP;
-	
 	CLOSE employees_cursor;
 END;
-
 ```
-
 #### Output:
-
 ![image](https://github.com/NIXANDASS/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118781418/7c2f0123-ff56-4474-b75e-e102b0963e96)
-
-
 #### Result:
 THE PROGRAM WAS EXECUTED SUCCESSFULLY.
